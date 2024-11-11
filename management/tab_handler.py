@@ -14,4 +14,5 @@ def calculate_tab(table_consumptions):
         product_price = product["price"]
         subtotal += product_price * amount
 
-    return {"subtotal": f"${subtotal:.2f}"}
+        subtotal = round(subtotal, 2)
+    return {"subtotal": f"${subtotal}"}

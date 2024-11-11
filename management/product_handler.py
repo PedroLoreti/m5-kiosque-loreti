@@ -55,7 +55,7 @@ def menu_report():
 
     report = (
         f"Products Count: {product_count} - "
-        f"Average Price: ${average_price:.2f} -"
+        f"Average Price: ${average_price:.1f} - "
         f"Most Common Type: {most_common_type}"
     )
 
